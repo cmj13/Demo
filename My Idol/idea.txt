@@ -1,0 +1,29 @@
+引入外部css方法：
+一、行内样式
+
+使用style属性引入CSS样式。
+示例：
+<h1 style="color:red;">style属性的应用</h1>
+<p  style="font-size:14px;color:green;">直接在HTML标签中设置的样式</p>
+
+二、内部样式表
+在style标签中书写CSS代码。style标签写在head标签中。
+示例：
+<head>
+   <style type="text/css">
+      h3{
+            color:red;
+         }
+   </style>
+</head>
+
+三、外部样式表
+CSS代码保存在扩展名为.css的样式表中
+HTML文件引用扩展名为.css的样式表，有两种方式：链接式、导入式。
+语法：
+1、链接式
+<link type="text/css" rel="styleSheet"  href="CSS文件路径" />
+2、导入式
+<style type="text/css">
+  @import url("css文件路径");
+</style>

@@ -1,0 +1,31 @@
+h1{
+	font-family: monospace;
+}
+.head1{
+	background-color: #2B2B2B;
+	text-align: center;
+	font-family: monospace;
+	color: white;
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.image-lei{
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+	background-color: gray;
+}
+
+.Body{
+ 	background-color:#2B2B2B;
+ } 
+
+ .cities{
+
+ 	width: 1200px;
+	background-color:black;
+	color:white;
+	margin:10px auto;
+	padding:20px;
+}

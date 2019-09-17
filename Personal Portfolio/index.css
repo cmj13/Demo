@@ -1,0 +1,55 @@
+ *{margin:0px;padding:0px}
+body{
+	background-color: gray;
+}
+.nav1{
+	background-color:#8B008B;
+	height: 75px;
+	width: 100%;
+	text-align: right;
+	position: fixed;
+/*	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+}
+.nav-1{
+	background-color: #999999;
+	width: 1200px;
+	height:75px;
+	margin: 0 auto;
+}
+.nav2{
+	background-color: #999999;
+	height:300px;
+	width: 1200px;
+	margin:0 auto;
+}
+.nav3{
+	background-color: #F0F0F0;
+	height: 150px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav4{
+	background-color:#EEEED1;
+	height: 800px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav5{
+	background-color: #A1A1A1;
+	height: 150px;
+}
+.nav6{
+	background-color:#8B008B;
+	color: white;
+	height: 75px;
+	text-align: center;
+/*	padding: 30px 10px 10px 10px；*/
+	line-height: 75px;
+/*	display: inline-block;*/ /*一定要将div设置为inline-block*/
+/*	vertical-align: middle;*//*设置该元素在父元素中的位置*/
+
+}

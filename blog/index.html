@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的博客</title>
+<style type="text/css">
+	html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h2 {
+    font-size: 20px;
+    color: #d9534f;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+.img-circle {
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#header {
+    background-image: url("/statics/demosource/myblog/head.png");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 16px;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 14px;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #fdc602;
+    font-weight: bold;
+    color: #fff;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+iframe,audio,video {
+    display: block;
+    margin: 0 auto;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #d9534f;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #d2322d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 4px;
+    width: 70%;
+    outline: none;
+}
+#follow img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#follow a {
+    text-decoration: none;
+}
+#follow img:hover {
+    opacity: 0.8;
+}
+#follow {
+    text-align: center;
+}
+.copyright {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+</style>
+</head>
+<body>
+	<div class="section">
+		<h2>关于我</h2>
+		<p>
+			嘿！我是<strong>MJ</strong>。编码改变了我的世界...
+		</p>
+		<p class="quote">I Love coding,</p>
+	</div>
+	<div class="section">
+		<h1>我的技能模块</h1>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+	</div>
+	<div class="section">
+		<h2><span>我的时间表</span></h2>
+		<table border="1">
+			<tr>
+				<th>Day</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+			</tr>
+			<tr>
+				<td>8:00-8:30</td>
+				<td class="selected">Learn</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>9:00-9:30</td>
+				<td></td>
+				<td class="selected">Practice</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>10:00-13:30</td>
+				<td></td>
+				<td></td>
+				<td class="selected">Play</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>15:45-17:00</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="selected">Code</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>18:00-18:15</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="selected">Discuss</td>
+			</tr>
+		</table>
+	</div>
+	<div class="section">
+		<h2><span>我的媒体</span></h2>
+            <iframe height="240" width="320" src="https://www.w3cschool.cn/statics/demosource/movie.mp4" allowfullscreen frameborder="0"></iframe>
+
+	</div>
+	<div class="section">
+		<h2><span>联系我</span></h2>
+		<form>
+			<input type="name" placeholder="Name" type="text" required><br>
+			<textarea name="text" type="text" placeholder="Message"></textarea><br>
+			<input type="submit" value="提交" class="submit"><br>
+		</form>
+	</div>
+</body>
+</html>
